@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Manfac from './components/Manfac';
-import Mobile from './components/File';
+import Day1 from './components/Day1';
 
 function App() {
   return (
     <div className="App">
-     <Mobile/>
-     <Manfac/>
+     <Day1/>
     </div>
   );
 }
