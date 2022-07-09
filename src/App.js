@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Manfac from './components/Manfac';
-import Mobile from './components/File';
+import Counter from './Components/Counter';
 
 function App() {
   return (
     <div className="App">
-     <Mobile/>
-     <Manfac/>
+      <Counter/>
     </div>
   );
 }
