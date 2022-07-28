@@ -12,40 +12,40 @@
 // })
  
 
-const prompt = require('prompt-sync')({sigint: true});
+// const prompt = require('prompt-sync')({sigint: true});
 
 
-const numberToGuess = Math.floor(Math.random() * 10) + 1;
+// const numberToGuess = Math.floor(Math.random() * 10) + 1;
 
-let foundCorrectNumber = false;
+// let foundCorrectNumber = false;
 
-while (!foundCorrectNumber) {
+// while (!foundCorrectNumber) {
  
-  let guess = prompt('Guess a number from 1 to 10: ');
+//   let guess = prompt('Guess a number from 1 to 10: ');
 
-  guess = Number(guess);
+//   guess = Number(guess);
 
   
-  if (guess === numberToGuess) {
-    console.log('Congrats, you got it!');
-    foundCorrectNumber = true;
-  } else {
-    console.log('Sorry, guess again!');
-  }
-}
+//   if (guess === numberToGuess) {
+//     console.log('Congrats, you got it!');
+//     foundCorrectNumber = true;
+//   } else {
+//     console.log('Sorry, guess again!');
+//   }
+// }
 
-// const fs=require("fs")
-// const create=fs.appendFile("text.txt",'data',(err)=>{
-//     console.log("done")
-//    })
-// const data=fs.createWriteStream("text.txt")
-// data.write('hello world')
-// const result=fs.readFileSync("./text.txt",{encoding:"utf-8"})
-// console.log(result)
-// const rename=fs.rename("text.txt","new.txt",(err)=>{
-//     console.log("Rename complete")
-// })
-// const d =fs.unlink("./new.txt",(err)=>{
-//     console.log("delete")
-// })
+const fs=require("fs")
+const create=fs.appendFile("text.txt",'data',(err)=>{
+    console.log("done")
+   })
+const data=fs.createWriteStream("text.txt")
+data.write('hello world')
+const result=fs.readFileSync("./text.txt",{encoding:"utf-8"})
+console.log(result)
+const rename=fs.rename("text.txt","new.txt",(err)=>{
+    console.log("Rename complete")
+})
+const d =fs.unlink("./new.txt",(err)=>{
+    console.log("delete")
+})
 
