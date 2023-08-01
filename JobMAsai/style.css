@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filter{
+    height:50px;
+    width:250px;
+    display: flex;
+}
+.filter>select{
+    height:80%;
+    width:100%;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top:15px;
+    margin-left: 5px;
+}
+.search{
+    display: flex;
+    margin-top: 50px;
+   margin: auto;
+    /* border: 1px solid red; */
+    font-size: large;
+    font-weight: bold;
+}
+.search>button{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    height:25px;
+    font-size: large;
+    font-weight: bold;
+
+}
+.search>input{
+    margin: auto;
+    height:25px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#Top{
+    position: sticky;
+    top:20px;
+    display: flex;
+    height:"150px";
+    
+    justify-content: space-around;
+    /* background-color: #809191; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+
+
+.main{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:15px
+
+}
+#Parent
+{ 
+/* border:1px solid red; */
+ display: flex;
+ justify-content:space-around;
+  height:"90px";
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+#first{
+    
+    text-align: left;
+}
+#innerdiv{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    /* padding-left:10px; */
+
+}
+#innerdiv>p{
+    font-size: small;
+    margin-left: 5px;
+    color:  #809191;
+    
+}
+#name{
+    color: #62a7a7;
+    font-weight: bold;
+}
+#postion{
+    font-size: large;
+    font-weight: bold;
+}
+
+#second{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.divs{
+    margin-top: 50px;
+    text-align: center;
+    height:25px;
+    width:80px;
+    font-weight: bold;
+    font-size: small;
+    margin: auto;
+    margin-left: 5px;
+    padding-top: 5px;
+    color: #65a8a9;
+    background-color: #eef9f9;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+    
+
+}
